@@ -1,6 +1,6 @@
 # Training Smoke Data
 
-This processed sample is separate from the project's source-code license. Redistribution permissions must be checked against the actual upstream ZINC250k/MOSES sources used. The Apache-2.0 declaration does not relicense upstream data; see [Third-Party Notices](../../THIRD_PARTY_NOTICES.md).
+This processed sample comes from the project's ZINC250k/MOSES data preparation workflow. Original download locations, dataset revisions, and per-record upstream provenance were not recorded. It is separate from the project's Apache-2.0 code/checkpoint grant and remains subject to applicable upstream data terms. See [Third-Party Notices](../../THIRD_PARTY_NOTICES.md) for source references, research citations, and the ZINC redistribution terms. The inclusion of this 300-record example does not authorize redistribution of the full upstream datasets.
 
 `value_network_smoke.csv` contains 300 molecular records, four string representations, and 17 property labels. Split_Set has 100 Train, 100 Val, and 100 Test rows. Training uses Train and Val only and excludes Test.
 

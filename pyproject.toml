@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simpro_vn"
+version = "0.1.0"
+description = "SimPro-ValueNetwork: pretrained recurrent-depth molecular value network inference"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "weights/WEIGHTS_LICENSE.md"]
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "tokenizers>=0.15"]
+
+[project.optional-dependencies]
+chemistry = ["rdkit", "selfies", "numpy"]
+data = ["rdkit", "selfies", "numpy", "pandas", "freesasa", "tqdm"]
+
+[project.scripts]
+simpro-vn = "simpro_vn.cli:main"
+simpro-vn-train = "simpro_vn.training:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+simpro_vn = ["assets/*.json", "assets/tokenizers/*.json"]

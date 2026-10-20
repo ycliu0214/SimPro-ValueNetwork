@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d2.pt",
+  "representation": "smiles",
+  "min_frequency": 5000,
+  "depth": 2,
+  "device": "auto",
+  "nhead": 12
+}

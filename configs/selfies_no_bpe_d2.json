@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/selfies/value_network_best_selfies_no_bpe_d2.pt",
+  "representation": "selfies",
+  "min_frequency": "no_bpe",
+  "depth": 2,
+  "device": "auto",
+  "nhead": 12
+}

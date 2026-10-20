@@ -1,0 +1,325 @@
+{
+  "format_version": 1,
+  "files": [
+    {
+      "representation": "smiles",
+      "tokenization": 5000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_5000_tokenizer.json",
+      "bytes": 72182,
+      "sha256": "9a803837dfc1255a0120d6b8ca70c5e671fb3c3f6ecb6a612b1cb66b128fc6aa"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 5000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_5000_mapping.json",
+      "bytes": 2055,
+      "sha256": "1f1a3f9d695bb70ff964a960edcb79d89fe4da973ef4160b60d54822cddcfa97"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 10000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_10000_tokenizer.json",
+      "bytes": 41733,
+      "sha256": "ecac7ea6bf87f38865e64f17421e7831f5bc918c5f7d1dc98825a248adc2ae81"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 10000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_10000_mapping.json",
+      "bytes": 2055,
+      "sha256": "1f1a3f9d695bb70ff964a960edcb79d89fe4da973ef4160b60d54822cddcfa97"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 20000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_20000_tokenizer.json",
+      "bytes": 24919,
+      "sha256": "cb6db67696f58245797eadf9eb0df41769bb795b85bd6c6b522a8582ca08dd4f"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 20000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_20000_mapping.json",
+      "bytes": 2055,
+      "sha256": "1f1a3f9d695bb70ff964a960edcb79d89fe4da973ef4160b60d54822cddcfa97"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 50000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_50000_tokenizer.json",
+      "bytes": 13647,
+      "sha256": "fc30b9f5b96d055b2c817dc25d78d812280c82c78e4c46ce5e302a158c60de6b"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 50000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_bpe_min_freq_50000_mapping.json",
+      "bytes": 2055,
+      "sha256": "1f1a3f9d695bb70ff964a960edcb79d89fe4da973ef4160b60d54822cddcfa97"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": "no_bpe",
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_no_bpe_tokenizer.json",
+      "bytes": 2992,
+      "sha256": "1f12df820d928b9d09d7c2a6c7e7b517cfcfe9af8b4f0ed58293a38c12726012"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": "no_bpe",
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smiles_no_bpe_mapping.json",
+      "bytes": 2055,
+      "sha256": "1f1a3f9d695bb70ff964a960edcb79d89fe4da973ef4160b60d54822cddcfa97"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 5000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_5000_tokenizer.json",
+      "bytes": 99850,
+      "sha256": "af48fc586860a864a85ddc42364b73b72064df08c4d8073d1d1e616465bb3a54"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 5000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_5000_mapping.json",
+      "bytes": 1677,
+      "sha256": "32952ab53b6a156baa8a2ddfece6b315570f6b6c1b0c6d7b5e2fa152aa46f143"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 10000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_10000_tokenizer.json",
+      "bytes": 58391,
+      "sha256": "d3ce2a4c04558bf952ae853c6b0bb346b91c96bad638388c2c87df17bcd817ab"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 10000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_10000_mapping.json",
+      "bytes": 1677,
+      "sha256": "32952ab53b6a156baa8a2ddfece6b315570f6b6c1b0c6d7b5e2fa152aa46f143"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 20000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_20000_tokenizer.json",
+      "bytes": 34761,
+      "sha256": "e3e395c569e418921763b8429c055b18e456e9668086f5fbc804aeed6b5edca5"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 20000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_20000_mapping.json",
+      "bytes": 1677,
+      "sha256": "32952ab53b6a156baa8a2ddfece6b315570f6b6c1b0c6d7b5e2fa152aa46f143"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 50000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_50000_tokenizer.json",
+      "bytes": 18247,
+      "sha256": "64115e4a90d864f5d9d411cd81372d61f1a8134307c03300bcb64c945e16cf7e"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 50000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_bpe_min_freq_50000_mapping.json",
+      "bytes": 1677,
+      "sha256": "32952ab53b6a156baa8a2ddfece6b315570f6b6c1b0c6d7b5e2fa152aa46f143"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": "no_bpe",
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_no_bpe_tokenizer.json",
+      "bytes": 2706,
+      "sha256": "6ab21af0e972f45b62702b9e53f9d5692c7bbdbd8eeb64b9fb1a3eec26aa6ea4"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": "no_bpe",
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/smarts_no_bpe_mapping.json",
+      "bytes": 1677,
+      "sha256": "32952ab53b6a156baa8a2ddfece6b315570f6b6c1b0c6d7b5e2fa152aa46f143"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 5000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_5000_tokenizer.json",
+      "bytes": 87523,
+      "sha256": "02a87c969df89b1dba2d5f45436f978dc8cefb6b8306a2743cfed55acd98b6a6"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 5000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_5000_mapping.json",
+      "bytes": 2243,
+      "sha256": "420a0d8294afe7eb68e7e5e12aa5ef4aab2d98701512f5631ed44c4bd1143d9f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 10000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_10000_tokenizer.json",
+      "bytes": 51592,
+      "sha256": "ba51ace7659f1dad40041c23638eb357cd9c7ff9477446fba64f626a6acd80a3"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 10000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_10000_mapping.json",
+      "bytes": 2243,
+      "sha256": "420a0d8294afe7eb68e7e5e12aa5ef4aab2d98701512f5631ed44c4bd1143d9f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 20000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_20000_tokenizer.json",
+      "bytes": 32050,
+      "sha256": "66d503eacacc4037b129bd9b9e1cbb4bb01729cc6f832b7b9f22a274f999ad5c"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 20000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_20000_mapping.json",
+      "bytes": 2243,
+      "sha256": "420a0d8294afe7eb68e7e5e12aa5ef4aab2d98701512f5631ed44c4bd1143d9f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 50000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_50000_tokenizer.json",
+      "bytes": 18169,
+      "sha256": "2ad17a360c4af5231d1830978d8fbb4bec481ffe98e4f0c71f22871ac6969797"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 50000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/safe_bpe_min_freq_50000_mapping.json",
+      "bytes": 2243,
+      "sha256": "420a0d8294afe7eb68e7e5e12aa5ef4aab2d98701512f5631ed44c4bd1143d9f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": "no_bpe",
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/safe_no_bpe_tokenizer.json",
+      "bytes": 3395,
+      "sha256": "b90a3a685b995164b48993036e756d8d64bd0547182452e681e0a23000ff7975"
+    },
+    {
+      "representation": "safe",
+      "tokenization": "no_bpe",
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/safe_no_bpe_mapping.json",
+      "bytes": 2243,
+      "sha256": "420a0d8294afe7eb68e7e5e12aa5ef4aab2d98701512f5631ed44c4bd1143d9f"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 5000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_5000_tokenizer.json",
+      "bytes": 95845,
+      "sha256": "456b77aa031abdbaa9c3230cda0d3b381d0f781660b8fc50435f271bde1e2fe7"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 5000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_5000_mapping.json",
+      "bytes": 4033,
+      "sha256": "9187c963a533436bbde9cfbb4f22c84099fffe69ff5a04242325e00f2d0e2738"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 10000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_10000_tokenizer.json",
+      "bytes": 55966,
+      "sha256": "0d4f59ea94a4e4a5442552a00e0aaf88c408b6d558b77f91447c1d84ddeca84c"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 10000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_10000_mapping.json",
+      "bytes": 4033,
+      "sha256": "9187c963a533436bbde9cfbb4f22c84099fffe69ff5a04242325e00f2d0e2738"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 20000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_20000_tokenizer.json",
+      "bytes": 32779,
+      "sha256": "fad516be42a310ecbcf2f9f9b157fb8a32440e8f6617a91cad2a0b0a191361ba"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 20000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_20000_mapping.json",
+      "bytes": 4033,
+      "sha256": "9187c963a533436bbde9cfbb4f22c84099fffe69ff5a04242325e00f2d0e2738"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 50000,
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_50000_tokenizer.json",
+      "bytes": 16794,
+      "sha256": "5f5f6f1b4f4b6bdd50a67113a6de491425faefaaf600423ba87d40b88719efd5"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 50000,
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_bpe_min_freq_50000_mapping.json",
+      "bytes": 4033,
+      "sha256": "9187c963a533436bbde9cfbb4f22c84099fffe69ff5a04242325e00f2d0e2738"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": "no_bpe",
+      "kind": "tokenizer",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_no_bpe_tokenizer.json",
+      "bytes": 3806,
+      "sha256": "7c8ea7a1dae0ed5a3dcdc41c4e033f96d6ed2384bd6bda0972057f8a2168e721"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": "no_bpe",
+      "kind": "mapping",
+      "path": "src/simpro_vn/assets/tokenizers/selfies_no_bpe_mapping.json",
+      "bytes": 4033,
+      "sha256": "9187c963a533436bbde9cfbb4f22c84099fffe69ff5a04242325e00f2d0e2738"
+    }
+  ]
+}

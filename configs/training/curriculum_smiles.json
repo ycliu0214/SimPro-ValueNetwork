@@ -1,0 +1,26 @@
+{
+  "mode": "curriculum",
+  "dataset_path": "../../examples/data/value_network_smoke.csv",
+  "output_dir": "../../training_runs/curriculum_smiles_5000",
+  "representation": "smiles",
+  "min_frequency": 5000,
+  "curriculum_depths": [
+    2,
+    4,
+    6
+  ],
+  "warmup_epochs": 2,
+  "linear_epochs": 10,
+  "discounted_epochs": 10,
+  "batch_size": 8,
+  "stage3_batch_size": 8,
+  "accumulation_steps": 1,
+  "min_learning_rate": 1e-06,
+  "gamma": 0.95,
+  "d_model": 768,
+  "nhead": 12,
+  "dim_feedforward": 3072,
+  "max_seq_len": 128,
+  "device": "auto",
+  "precision": "fp32"
+}

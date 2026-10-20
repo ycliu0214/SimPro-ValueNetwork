@@ -1,0 +1,18 @@
+{
+  "mode": "finetune",
+  "dataset_path": "../../examples/data/value_network_smoke.csv",
+  "output_dir": "../../training_runs/finetune_smiles_5000_d6",
+  "checkpoint_path": "../../weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d6.pt",
+  "representation": "smiles",
+  "min_frequency": 5000,
+  "depth": 6,
+  "epochs": 10,
+  "batch_size": 2,
+  "accumulation_steps": 1,
+  "learning_rate": 2e-05,
+  "min_learning_rate": 1e-06,
+  "schedule": "discounted",
+  "gamma": 0.95,
+  "device": "auto",
+  "precision": "fp32"
+}

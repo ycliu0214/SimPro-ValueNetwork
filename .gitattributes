@@ -1,0 +1,10 @@
+# Normalize ordinary source text for cross-platform checkouts.
+* text=auto eol=lf
+
+# Preserve exact data bytes, including assets verified by SHA256 manifests.
+*.json -text
+*.csv -text
+*.png -text
+*.pt -text
+*.pth -text
+*.zip -text

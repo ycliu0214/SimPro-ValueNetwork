@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/smarts/value_network_best_smarts_no_bpe_d4.pt",
+  "representation": "smarts",
+  "min_frequency": "no_bpe",
+  "depth": 4,
+  "device": "auto",
+  "nhead": 12
+}

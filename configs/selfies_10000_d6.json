@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/selfies/value_network_best_selfies_bpe_min_freq_10000_d6.pt",
+  "representation": "selfies",
+  "min_frequency": 10000,
+  "depth": 6,
+  "device": "auto",
+  "nhead": 12
+}

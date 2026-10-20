@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/smarts/value_network_best_smarts_bpe_min_freq_5000_d4.pt",
+  "representation": "smarts",
+  "min_frequency": 5000,
+  "depth": 4,
+  "device": "auto",
+  "nhead": 12
+}

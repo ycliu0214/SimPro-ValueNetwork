@@ -1,0 +1,24 @@
+SimPro-ValueNetwork
+Copyright 2026 SimPro-ValueNetwork contributors.
+
+The original project source code, documentation, configuration, and the
+60 pretrained checkpoints identified in weights/manifest.json are licensed
+under the Apache License, Version 2.0. See LICENSE and
+weights/WEIGHTS_LICENSE.md.
+
+This distribution includes a modified adaptation of SAFE converter logic
+from the SAFE project (https://github.com/datamol-io/safe), licensed under
+Apache-2.0. Upstream contributors retain their rights in that material.
+The affected file is src/simpro_vn/representations/safe_core.py.
+Modifications include local RDKit helpers replacing datamol calls,
+project-specific exceptions, splitting, and conversion wrappers.
+See THIRD_PARTY_NOTICES.md for attribution and dependency information.
+
+Third-party packages remain subject to their own licenses. The source-code
+license does not change licenses of separately installed dependencies,
+upstream datasets, or third-party models. The processed dataset sample is
+separate from the code/checkpoint grant and retains applicable upstream
+data permissions and requirements.
+
+This work was supported by MOST 113-2113-M-A49-027- and
+NSTC 114-2113-M-A49-015-. Funding acknowledgment does not imply endorsement.

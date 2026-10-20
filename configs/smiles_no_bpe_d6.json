@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/smiles/value_network_best_smiles_no_bpe_d6.pt",
+  "representation": "smiles",
+  "min_frequency": "no_bpe",
+  "depth": 6,
+  "device": "auto",
+  "nhead": 12
+}

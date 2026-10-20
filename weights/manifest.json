@@ -1,0 +1,488 @@
+{
+  "format_version": 1,
+  "license": "Apache-2.0",
+  "license_file": "weights/WEIGHTS_LICENSE.md",
+  "description": "Pretrained model inventory with file sizes and SHA256 checksums.",
+  "models": [
+    {
+      "representation": "safe",
+      "tokenization": 10000,
+      "depth": 2,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_10000_d2.pt",
+      "bytes": 33691401,
+      "sha256": "2d2b7d5a6596a44bc6ce8fa95361dca63b7f68c3cd7fe7aee835860d9f2e5b5f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 10000,
+      "depth": 4,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_10000_d4.pt",
+      "bytes": 33691401,
+      "sha256": "2c9bbddd1ebbe79c42d3360450e3ddd2804a83fff5bad5ab99e7a3de134208e2"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 10000,
+      "depth": 6,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_10000_d6.pt",
+      "bytes": 33691401,
+      "sha256": "39b6dcea1d1c35c1e2f273b07c5138462f272247d6c53e6a62998a7e23fb04c4"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 20000,
+      "depth": 2,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_20000_d2.pt",
+      "bytes": 32794377,
+      "sha256": "dee56cffcd5be86ea1d69404fb147d0b1395a4bc25059f2c04c60d66386b717f"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 20000,
+      "depth": 4,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_20000_d4.pt",
+      "bytes": 32794377,
+      "sha256": "fde06de6df7c2a0c570961fd380077f81616d546cb986252428cd6f69131ae21"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 20000,
+      "depth": 6,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_20000_d6.pt",
+      "bytes": 32794377,
+      "sha256": "95b2c2ac8405f98d295d4abad065fcd9e1bd927939eb53e74ea6d231296a5962"
+    },
+    {
+      "representation": "safe",
+      "tokenization": "no_bpe",
+      "depth": 2,
+      "path": "weights/safe/value_network_best_safe_no_bpe_d2.pt",
+      "bytes": 31408989,
+      "sha256": "61b7941049d52dc4a326e6c550a8a47f621a897535e251c55749502776f395bd"
+    },
+    {
+      "representation": "safe",
+      "tokenization": "no_bpe",
+      "depth": 4,
+      "path": "weights/safe/value_network_best_safe_no_bpe_d4.pt",
+      "bytes": 31408989,
+      "sha256": "49c0fdb2177882b7c5d9986867635b7f163456a480c6b1bb27710793a1d85f71"
+    },
+    {
+      "representation": "safe",
+      "tokenization": "no_bpe",
+      "depth": 6,
+      "path": "weights/safe/value_network_best_safe_no_bpe_d6.pt",
+      "bytes": 31408989,
+      "sha256": "0620b609c3d9608fb7c4871690edc21507687d067f22e31a158080f521c451ed"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 50000,
+      "depth": 2,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_50000_d2.pt",
+      "bytes": 32133897,
+      "sha256": "a3d9f32583dce70d7516174860fa344900ffce7e6b04c2fbf680c96e0829f56b"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 50000,
+      "depth": 4,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_50000_d4.pt",
+      "bytes": 32133897,
+      "sha256": "6047edfe271beb3854555234c94f2d1a4355e27fc3799bdfa2db5abaed2dea63"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 50000,
+      "depth": 6,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_50000_d6.pt",
+      "bytes": 32133897,
+      "sha256": "43fc19ce5b2238c8e5b1e89297c58e1ae9024e235f2c6f3b335e33fdc773324c"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 5000,
+      "depth": 2,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_5000_d2.pt",
+      "bytes": 35288813,
+      "sha256": "1e4c5ec5fa2cb54e1a2605be72b456f19cd66ab1874ba28f9039feb5442d3728"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 5000,
+      "depth": 4,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_5000_d4.pt",
+      "bytes": 35288813,
+      "sha256": "711d39a4d6f0d9a8f34f02d22b4778bf11b51acf618aa913bb382a59eadbee11"
+    },
+    {
+      "representation": "safe",
+      "tokenization": 5000,
+      "depth": 6,
+      "path": "weights/safe/value_network_best_safe_bpe_min_freq_5000_d6.pt",
+      "bytes": 35288813,
+      "sha256": "370527843cb7aadab21c24e8389ed348e0346eccce14b9fac7aecfdff946c06e"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 10000,
+      "depth": 2,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_10000_d2.pt",
+      "bytes": 33415005,
+      "sha256": "82e04ba3767500a9e5e91dbb174e8e232743777f73d9e5f1d395ef3ef3cb809d"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 10000,
+      "depth": 4,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_10000_d4.pt",
+      "bytes": 33415005,
+      "sha256": "3a841cc2742a6d11903c9248c6747b8ada4963c34dff338e4a52a3acff221505"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 10000,
+      "depth": 6,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_10000_d6.pt",
+      "bytes": 33415005,
+      "sha256": "65fa6a2a7c7e1967b262851999e41e3dfc20d29ce50e4b879faf72a92a0e8701"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 20000,
+      "depth": 2,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_20000_d2.pt",
+      "bytes": 32613213,
+      "sha256": "1b8c94995e2b284153e9929417f21b0c07771ed897fbd1897792e24179756154"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 20000,
+      "depth": 4,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_20000_d4.pt",
+      "bytes": 32613213,
+      "sha256": "243b7cc4e70a229a781ee1ecfb25731e626e8a552d160237b56586d02ae2dc90"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 20000,
+      "depth": 6,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_20000_d6.pt",
+      "bytes": 32613213,
+      "sha256": "4e5eb3f4610ec2cc89aeb0767ef82c9b7fda7129cf2019d8a471bb5d8daf88b7"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": "no_bpe",
+      "depth": 2,
+      "path": "weights/selfies/value_network_best_selfies_no_bpe_d2.pt",
+      "bytes": 31522737,
+      "sha256": "067dfbe4993bc2d52ba37fcea3628444bc50829816f6a0f98604a509bcfe9f51"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": "no_bpe",
+      "depth": 4,
+      "path": "weights/selfies/value_network_best_selfies_no_bpe_d4.pt",
+      "bytes": 31522737,
+      "sha256": "fe6d7515c2ac623883389037c2136f1cc9d65988b4fec197a3f157c9ee4a5c3c"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": "no_bpe",
+      "depth": 6,
+      "path": "weights/selfies/value_network_best_selfies_no_bpe_d6.pt",
+      "bytes": 31522737,
+      "sha256": "13c28a049dab98a3089383ffb5bbaa82ba9038f74c99145df071a20ec553190b"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 50000,
+      "depth": 2,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_50000_d2.pt",
+      "bytes": 32038749,
+      "sha256": "b387b79aa3c83c00580abf47b394f17f3ae0aa67b5a06eebd79dd7308252918c"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 50000,
+      "depth": 4,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_50000_d4.pt",
+      "bytes": 32038749,
+      "sha256": "c5f1e1302b77d1f7b6fbadc11b65c68074e0e18a1fbdfdf22d5312f9979b4ead"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 50000,
+      "depth": 6,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_50000_d6.pt",
+      "bytes": 32038749,
+      "sha256": "1b264312f98f94e55f88673a7f9accfc62f1babccf8dbbae9e8c2916edefc3c0"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 5000,
+      "depth": 2,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_5000_d2.pt",
+      "bytes": 34717505,
+      "sha256": "68944d1fcdc99f7ed7b5758b21acc107598cab62705e732fe866f0e9bebd22f2"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 5000,
+      "depth": 4,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_5000_d4.pt",
+      "bytes": 34717505,
+      "sha256": "6115316d6ba779184e16e8929fb9bcf2ff658b333ba3cd97c35eb610e3c4dcc7"
+    },
+    {
+      "representation": "selfies",
+      "tokenization": 5000,
+      "depth": 6,
+      "path": "weights/selfies/value_network_best_selfies_bpe_min_freq_5000_d6.pt",
+      "bytes": 34717505,
+      "sha256": "57a3d760c68ff29498ca6c82206b2c504c439ea973c78ecb7bd10bbda58552c8"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 10000,
+      "depth": 2,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_10000_d2.pt",
+      "bytes": 33396545,
+      "sha256": "02a521be99c6021356ba10c529607fe7f35ece7bfdc2f2a5109b90d727eabbea"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 10000,
+      "depth": 4,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_10000_d4.pt",
+      "bytes": 33396545,
+      "sha256": "c7e113a5534fcde57f8e8c59fd9347b23dfe8be78030f7a3524306fec5bc20ae"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 10000,
+      "depth": 6,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_10000_d6.pt",
+      "bytes": 33396545,
+      "sha256": "9a5084fe9e1c67cd5a2d635f4a789c9c81294097f70b0261f868024ea39e67cd"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 20000,
+      "depth": 2,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_20000_d2.pt",
+      "bytes": 32579393,
+      "sha256": "a12c3f6310e466283f7cb26a0ecf3eb1a6a55daf13ce5ae5900891a10001b0f3"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 20000,
+      "depth": 4,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_20000_d4.pt",
+      "bytes": 32579393,
+      "sha256": "6cc3be24542708ee10c11f2e60d1477ae590d77f09304f980f6adf40262e37c6"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 20000,
+      "depth": 6,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_20000_d6.pt",
+      "bytes": 32579393,
+      "sha256": "b95f3b909d095bdd06f876d74836a23f25f15a3664712db93b75abdce84301b0"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": "no_bpe",
+      "depth": 2,
+      "path": "weights/smarts/value_network_best_smarts_no_bpe_d2.pt",
+      "bytes": 31332245,
+      "sha256": "418eab7b70e3ec29e8d0ce2fe1e67477afa135f81567df06c3ac06db458ef546"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": "no_bpe",
+      "depth": 4,
+      "path": "weights/smarts/value_network_best_smarts_no_bpe_d4.pt",
+      "bytes": 31332245,
+      "sha256": "80a15f74b3d8af6ab68df2fdc60caf8bec852292aaad662f2da799df5d687f52"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": "no_bpe",
+      "depth": 6,
+      "path": "weights/smarts/value_network_best_smarts_no_bpe_d6.pt",
+      "bytes": 31332245,
+      "sha256": "cc70eae28e6cad159ad9e00af4e39b8e9568660bcc3e9e90723244f050456766"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 50000,
+      "depth": 2,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_50000_d2.pt",
+      "bytes": 31971137,
+      "sha256": "3265a342d60fb6fafdcfb6660c5eb320f3591bccc6c805dd26587b2a297825f7"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 50000,
+      "depth": 4,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_50000_d4.pt",
+      "bytes": 31971137,
+      "sha256": "a952a1e7249ce450d3058f5b50a367389e7a6117c5aa7ae08ee2472cc752ac43"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 50000,
+      "depth": 6,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_50000_d6.pt",
+      "bytes": 31971137,
+      "sha256": "89374244ac59579f8703466f80f72c1323741da4fc654159ddcec4ec3af77f9c"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 5000,
+      "depth": 2,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_5000_d2.pt",
+      "bytes": 34745125,
+      "sha256": "e8f40452d3f020d77f13b67ceeaa7be5b8efacc29ed971dc677ad0db3a003ec2"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 5000,
+      "depth": 4,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_5000_d4.pt",
+      "bytes": 34745125,
+      "sha256": "ffb1859232c01ab5702f79f7c37c788469743b9b8a3b28cdbefe38ea22c2a548"
+    },
+    {
+      "representation": "smarts",
+      "tokenization": 5000,
+      "depth": 6,
+      "path": "weights/smarts/value_network_best_smarts_bpe_min_freq_5000_d6.pt",
+      "bytes": 34745125,
+      "sha256": "9067ac2ea84bf768c8506e1e1df37171e8a72299ef3cfa7b8ee3d8529faf1053"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 10000,
+      "depth": 2,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_10000_d2.pt",
+      "bytes": 33181505,
+      "sha256": "1393e04991899f93efb848df5c327e76d9ebc1e5c770d8103dd052ccbffefd84"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 10000,
+      "depth": 4,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_10000_d4.pt",
+      "bytes": 33181505,
+      "sha256": "5bceb0ec082fcd75dd06b0aa81b6872260965fbb083b67f224edb894b98070eb"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 10000,
+      "depth": 6,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_10000_d6.pt",
+      "bytes": 33181505,
+      "sha256": "f1d4244a1532f5ebf8dfe12399228b2979a5cf325b4df736d8b8223777895f16"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 20000,
+      "depth": 2,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_20000_d2.pt",
+      "bytes": 32425793,
+      "sha256": "54e36d48cf5596e28b5d2b3cdb0729b5a8c5c22ce127c5c7c0b23e77f830a11e"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 20000,
+      "depth": 4,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_20000_d4.pt",
+      "bytes": 32425793,
+      "sha256": "4a0fa109fe55f599cb74ca8bce904812314e0a5b65e505fb6a05b3f4478148a9"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 20000,
+      "depth": 6,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_20000_d6.pt",
+      "bytes": 32425793,
+      "sha256": "25b608292d15c9721e2ba527b648e5fd8e1994901f43ccf8f5b6cd413851cc6d"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": "no_bpe",
+      "depth": 2,
+      "path": "weights/smiles/value_network_best_smiles_no_bpe_d2.pt",
+      "bytes": 31387541,
+      "sha256": "ea2b1b477fccb0b93fd748a556e0a9e52cfb648500c5a92dedc21016ef7552b3"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": "no_bpe",
+      "depth": 4,
+      "path": "weights/smiles/value_network_best_smiles_no_bpe_d4.pt",
+      "bytes": 31387541,
+      "sha256": "b9207e27b413bb01440e5c716d7e030b53e86f22c861d13798ba763ce13da5df"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": "no_bpe",
+      "depth": 6,
+      "path": "weights/smiles/value_network_best_smiles_no_bpe_d6.pt",
+      "bytes": 31387541,
+      "sha256": "e52a8f10cefb4faddcc3f1786cfb3a732f193eec91d2261bd50b9ff47172f647"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 50000,
+      "depth": 2,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_50000_d2.pt",
+      "bytes": 31903553,
+      "sha256": "dcbf81f8dd6d26a071fd92331aa8e836a31940a217a5e4846a803bc10cb60a9b"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 50000,
+      "depth": 4,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_50000_d4.pt",
+      "bytes": 31903553,
+      "sha256": "0f00184d431ca95ac3739dc26323f8538af5f8d4f9efb71041597d69ae5e4657"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 50000,
+      "depth": 6,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_50000_d6.pt",
+      "bytes": 31903553,
+      "sha256": "ec292d1fe9955218f10e1af96e8c1f1b3b704c17a602fe07595e86272fd91e3b"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 5000,
+      "depth": 2,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d2.pt",
+      "bytes": 34508581,
+      "sha256": "0929202c0d1fe27f24180ecc9ca67b38041580cb938c23dd863d226a1f386148"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 5000,
+      "depth": 4,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d4.pt",
+      "bytes": 34508581,
+      "sha256": "f40e06764f4897fa3fe1409484d741dff640f00987eba0862ac97af128307665"
+    },
+    {
+      "representation": "smiles",
+      "tokenization": 5000,
+      "depth": 6,
+      "path": "weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d6.pt",
+      "bytes": 34508581,
+      "sha256": "a3ccb71f89e05d3abdc5d86b8df764b6f66b603f78b479128bdbd80248a4fbc4"
+    }
+  ]
+}

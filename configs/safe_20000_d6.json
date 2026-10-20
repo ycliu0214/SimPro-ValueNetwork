@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "../weights/safe/value_network_best_safe_bpe_min_freq_20000_d6.pt",
+  "representation": "safe",
+  "min_frequency": 20000,
+  "depth": 6,
+  "device": "auto",
+  "nhead": 12
+}

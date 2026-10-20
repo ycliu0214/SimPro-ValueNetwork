@@ -19,6 +19,7 @@ training_runs/
 # Local-only development material and overlapping validation notebooks.
 /experimental/
 /weights/archive/
+/docs/DEVELOPMENT_HANDOFF.md
 /examples/colab_validation.ipynb
 /examples/colab_package_validation.ipynb
 /examples/colab_training_validation.ipynb

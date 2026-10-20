@@ -6,6 +6,53 @@ Use pretrained value networks to predict 17 complete-molecule physicochemical pr
 
 To use the models, install the package, obtain the selected checkpoint, and run inference. Data preparation, training, and fine-tuning are optional learning examples.
 
+## Quick Start: Your First Prediction
+
+Python 3.10 or newer is required. CPU inference is supported; a GPU is optional.
+
+1. Download and extract the [source ZIP](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-source.zip).
+2. Download the [SMILES weight ZIP](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-smiles-weights.zip) and extract it into the project root, the folder containing `pyproject.toml`. It should create `weights/smiles/`. The other three weight archives are optional for this example.
+3. Open a terminal in that project root and run:
+
+```bash
+python -m pip install .
+simpro-vn --checkpoint weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d6.pt --representation smiles --min-frequency 5000 --depth 6 --text "CCO"
+```
+
+The command prints a JSON list containing one object with 17 numeric predictions, from `MW` through `Total_SASA`. Values are in the [property units](docs/PROPERTIES.md), not z-scores. No training CSV or training step is needed. `CCO` is a convenient input to check the interface, not evidence of prediction accuracy for small molecules.
+
+Use the same checkpoint from Python:
+
+```python
+from simpro_vn import ValueNetworkPredictor
+
+predictor = ValueNetworkPredictor(
+    checkpoint_path="weights/smiles/value_network_best_smiles_bpe_min_freq_5000_d6.pt",
+    representation="smiles", min_frequency=5000, depth=6, device="auto",
+)
+result = predictor.predict("CCO")[0]
+print("Predicted properties:", len(result))
+print("Property names:", ", ".join(result))
+print("Estimated molecular weight (g/mol):", result["MW"])
+```
+
+The first two lines have this output; the third prints the model's numeric estimate:
+
+```text
+Predicted properties: 17
+Property names: MW, LogP, HBD, HBA, ROB, TPSA, AROM, QED, SAS, ALERTS, Asphericity, NPR1, NPR2, SNDM, 3D_Polar_SA, 3D_NonPolar_SA, Total_SASA
+```
+
+Keep the working directory at the project root for these relative paths, or pass an absolute checkpoint path. If the shell cannot find `simpro-vn`, use `python -m simpro_vn` with the same arguments in the environment where you installed the package. For Colab, start with the [inference notebook](examples/colab_inference.ipynb); full validation is optional.
+
+## What the Predictions Mean
+
+The released models were trained on processed ZINC250k and MOSES molecular data. They estimate 17 properties of a **completed molecule**, including when only a prefix is supplied. Complete mode reads the prediction at EOS; prefix mode omits EOS and estimates final-molecule properties from the tokens seen so far. A prefix estimate is neither a descriptor calculation on the current fragment nor a guarantee about a particular future continuation.
+
+Outputs are learned, continuous estimates. Counts are not rounded, scores are not clipped, and the API does not provide calibrated uncertainty. Coordinate-dependent outputs reflect training conformers; inference does not generate or optimize a 3D conformer. Accepting and tokenizing an input does not establish chemical validity or reliable accuracy outside the training distribution.
+
+See [Model Scope and Interpretation](docs/MODEL_SCOPE.md) for input requirements, limitations, and use with molecular generators, and [Predicted Properties](docs/PROPERTIES.md) for all 17 definitions and units.
+
 ## Research Results
 
 Final z-score RMSE decreases with recurrent depth across the four representations. Reusing a shared Transformer block keeps parameter counts unchanged across depths within each setting.
@@ -48,8 +95,6 @@ Model binaries are distributed separately from source code. Obtain the selected 
 
 ## Colab
 
-For complete checks, open [Comprehensive Colab Validation](examples/colab_comprehensive_validation.ipynb), set `PROJECT_DIR` and `WEIGHTS_DIR`, and run all cells in order. It covers normal/wheel installation, functional tests, all 60 models through CLI/API, data preparation, scratch training, released-model fine-tuning/resume, and original-weight preservation. See [Comprehensive Validation](docs/COMPREHENSIVE_VALIDATION.md) for scope and reports.
-
 Extract the project to `/content/SimPro-ValueNetwork`, open [the inference example](examples/colab_inference.ipynb), and run cells in order. For other locations, set `PROJECT_DIR` to the root containing `pyproject.toml`. Select checkpoints separately with `WEIGHTS_DIR` or `CHECKPOINT_PATH`.
 
 ```python
@@ -60,6 +105,8 @@ assert (PROJECT_DIR / 'pyproject.toml').is_file()
 ```
 
 Google Drive is optional. If using Drive, set `USE_GOOGLE_DRIVE=True` in the notebook, mount it, and set `PROJECT_DIR` to your own location. Pretrained inference requires neither a training CSV nor a training notebook.
+
+For optional complete checks, open [Comprehensive Colab Validation](examples/colab_comprehensive_validation.ipynb), set `PROJECT_DIR` and `WEIGHTS_DIR`, and run all cells in order. It covers normal/wheel installation, functional tests, all 60 models through CLI/API, data preparation, scratch training, released-model fine-tuning/resume, and original-weight preservation. See [Comprehensive Validation](docs/COMPREHENSIVE_VALIDATION.md) for scope and reports.
 
 ## Python API
 
@@ -155,6 +202,7 @@ Examples use the [300-row smoke dataset](examples/data/README.md), retain fixed 
 | [COMPREHENSIVE_VALIDATION.md](docs/COMPREHENSIVE_VALIDATION.md) | Complete validation steps, scope, and result interpretation |
 | [colab_inference.ipynb](examples/colab_inference.ipynb) | Prediction and KV-cache |
 | [MODEL_INTERFACE.md](docs/MODEL_INTERFACE.md) | Model descriptions and tensor contracts |
+| [MODEL_SCOPE.md](docs/MODEL_SCOPE.md) | Training-data scope, complete/prefix semantics, and prediction limitations |
 | [PACKAGE_VALIDATION.md](docs/PACKAGE_VALIDATION.md) | Installation/interface validation |
 | [prepare_finetuning_dataset.ipynb](examples/prepare_finetuning_dataset.ipynb) | SMILES, optimization, labels, compatibility |
 | [colab_finetuning.ipynb](examples/colab_finetuning.ipynb) | CLI/API fine-tuning, saving, reload, resume |

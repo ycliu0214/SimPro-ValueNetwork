@@ -4,6 +4,8 @@
 
 The model predicts 17 complete-molecule properties. Graph descriptors use a view without explicit hydrogens; 3D descriptors use the hydrogen-containing conformer. Property order and scaler statistics are fixed.
 
+For training-data coverage, complete-string versus prefix semantics, and limitations when scoring generated molecules, see [Model Scope and Interpretation](MODEL_SCOPE.md).
+
 ## Graph-based properties
 
 | Order | Field | Label calculation | Units or meaning |

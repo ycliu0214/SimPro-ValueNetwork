@@ -2,6 +2,8 @@
 
 These interfaces let Python/PyTorch programs use the Value Network. Dictionary-based predict() and the CLI remain available. Hugging Face, a generator, and training data are not required.
 
+Read [Model Scope and Interpretation](MODEL_SCOPE.md) for what complete/prefix outputs mean, their units, and the limits of using these scores with a molecular generator.
+
 ## Model Descriptions
 
 The package's assets/pretrained_models.json describes all 60 published checkpoints; weights/model_descriptions.json is a portable copy. Descriptions include representation, tokenization setting, recurrent depth, attention heads, dimensions, context limit, property order, special token IDs, preprocessing fingerprint, file SHA256, and size. Existing .pt files are unchanged.

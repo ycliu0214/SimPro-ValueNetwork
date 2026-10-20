@@ -16,6 +16,25 @@ See [Research Results](docs/RESEARCH_RESULTS.md) for additional figures. Predict
 
 ## Installation
 
+### Download v0.1.0
+
+Get the source and pretrained checkpoints from the [v0.1.0 release](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/tag/v0.1.0).
+
+| Download | Contents |
+| --- | --- |
+| [Source package](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-source.zip) | Source code, preprocessing assets, configurations, tests, documentation, and notebooks; no checkpoint binaries |
+| [SMILES weights](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-smiles-weights.zip) | 15 SMILES checkpoints |
+| [SMARTS weights](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-smarts-weights.zip) | 15 SMARTS checkpoints |
+| [SAFE weights](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-safe-weights.zip) | 15 SAFE checkpoints |
+| [SELFIES weights](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SimPro-ValueNetwork-selfies-weights.zip) | 15 SELFIES checkpoints |
+| [SHA256 checksums](https://github.com/ycliu0214/SimPro-ValueNetwork/releases/download/v0.1.0/SHA256SUMS.txt) | Checksums for the source ZIP and four weight ZIPs |
+
+Extract the source package first, then extract the selected weight archive into the project root containing `pyproject.toml`. Weight archives retain `weights/<representation>/` paths. Download all four for comprehensive validation; ordinary inference only requires the selected checkpoint. Compare downloaded archive hashes against SHA256SUMS.txt.
+
+If the repository is private, release downloads require a GitHub account with access.
+
+### Install the Package
+
 Python 3.10 or newer is required. Use the first command for basic inference and the chemistry extra for SAFE/SELFIES.
 
 ```bash
